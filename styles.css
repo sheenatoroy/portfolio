@@ -146,7 +146,9 @@ a {
     }
 
     .nav-menu.active {
+        
         left: -18%;
+
         
     }
 
@@ -159,8 +161,8 @@ a {
 
     .nav-link:hover::after{
 
-        width: 20%; 
-        left: 36%;
+        width: 30%; 
+        left: 35%;
       
     }
     
@@ -215,7 +217,7 @@ button{
     font-size: 1em;
     margin: 1em 0px;
     padding: 5px 10px;
-    position: relative;
+   
     text-transform: uppercase;
 }
 
@@ -224,7 +226,6 @@ button::after {
     
     background: white;
     content: '';
-    position: absolute;
     z-index: -1;
   
 }
@@ -273,6 +274,7 @@ button:hover {
     .landing-page{
 
         display: block;
+        margin-bottom: 40%;
     }
 
     .landing-page-main{
@@ -287,10 +289,9 @@ button:hover {
 
     }
 
-    .download-cv{
+    .landing-page p{
 
-        overflow: hidden;
-        
+        font-size: 16px
     }
 
     .download-cv{
@@ -303,8 +304,7 @@ button:hover {
         width: 50%;
         height: 5%;
         background-color: #e78121f8;
-        position: relative;
-        
+       
     }
     
     .landing-page-side img{
@@ -473,5 +473,18 @@ button:hover {
         text-transform: uppercase;
         font-size: 1rem;
     }
+    
+    .timeline-card{
+
+        position: relative;
+        margin: 0 0 20px 20px;
+        padding: 8px;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 8px;
+        max-width: 600px;
+        box-shadow: 5px 5px #8888886c;
+    }
+    
     
 }
