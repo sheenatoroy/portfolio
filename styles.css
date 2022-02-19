@@ -148,8 +148,6 @@ a {
     .nav-menu.active {
         
         left: -18%;
-
-        
     }
 
     .nav-item {
@@ -318,7 +316,7 @@ button:hover {
     }
 }
 
-/*about*/
+/*about page*/
 .about-page{
 
     background-color: #7474741a;
@@ -496,7 +494,7 @@ button:hover {
     
 }
 
-/*Works*/
+/*works page*/
 .works-page{
 
     padding: 5% 5%;
@@ -692,7 +690,7 @@ p:last-of-type{
     transition: opacity 0.3s, top 0.3s ease 0s;
 }
 
-/*Contact*/
+/*contact page*/
 .contact-page{
 
     padding: 5% 5%;
